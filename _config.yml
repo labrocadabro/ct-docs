@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Contribuing to CommunityTaught.org
+title: Community Taught Docs
 description: Documentation for contributing to CommunityTaught.org
 baseurl: "/communitytaught" # the subpath of your site, e.g. /blog
 url: "https://labrocadabro.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -21,27 +21,27 @@ url: "https://labrocadabro.github.io" # the base hostname & protocol for your si
 permalink: pretty
 
 exclude:
- # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
-   - .sass-cache/
-   - .jekyll-cache/
-   - gemfiles/
-   - Gemfile
-   - Gemfile.lock
-   - node_modules/
-   - vendor/bundle/
-   - vendor/cache/
-   - vendor/gems/
-   - vendor/ruby/
- # specific to the theme website:
-   - bin/
-   - lib/
-   - "*.gemspec"
-   - "*.gem"
-   - LICENSE.txt
-   - package.json
-   - package-lock.json
-   - Rakefile
-   - README.md
+  # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  # specific to the theme website:
+  - bin/
+  - lib/
+  - "*.gemspec"
+  - "*.gem"
+  - LICENSE.txt
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README.md
 
 # Set a path/url to a logo that will be displayed instead of the title
 #logo: "/assets/images/just-the-docs.png"
@@ -120,8 +120,6 @@ footer_content: "Copyright &copy; 2022 Laura Abro"
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
 last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
-
-
 
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: false # show or hide edit this page link
